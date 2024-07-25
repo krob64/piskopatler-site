@@ -1,0 +1,11 @@
+.piskotable {
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.piskotable th, td{
+    font-family: courier, monospace;
+	color: #fff;
+	font-size:14px;
+}

@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+    --poppins: 'Poppins', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    line-height: 1.5;
+    cursor: default;
+    user-select: none;
+}
+
+.center {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: table;
+    overflow: hidden;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+center {
+    display: block;
+    text-align: -webkit-center;
+}
+
+.center-content {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+pre {
+    font-family: monospace;
+    margin: 0;
+}
+
+.homeheader {
+    color: #4b4b4b;
+    font-family: var(--poppins);
+    font-size: medium;
+    margin-bottom: 0;
+    margin-top: 0px;
+    text-align: left;
+}
+
+.button {
+    background: hsl(0deg 0% 10% / 75%);
+    color: #fff;
+    font-size: 13.5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 17px;
+    padding-bottom: 13px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 5px;
+    display: inline-block;
+    overflow: hidden;
+    z-index: 1;
+    will-change: opacity, transform;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 35%);
+}
+
+input, input:focus, textarea, textarea:focus, select,
+select:focus, a, a:focus, button, button:focus, span, th {
+    outline: none;
+    border: 0;
+    font-family: var(--poppins);
+    cursor: pointer;
+}
+
+a {
+    position: relative;
+    user-select: none;
+    text-decoration: none;
+    -webkit-user-drag: none;
+}
+
+.logo {
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    background-image: url('../piskoalpha_square.png');
+    margin: 0;
+    font-size: 5px;
+    line-height: 5px;
+    -webkit-background-clip: text;
+    color: transparent;
+}

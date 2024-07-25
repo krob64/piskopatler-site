@@ -1,0 +1,94 @@
+/* onedark theme*/
+:root {
+  --bg: #282C34;
+  --bg2: #22252b;
+  --fg: #ABB2BF;
+  --red: #e06c75;
+  --green: #98c379;
+  --yellow: #e5c07b;
+  --blue: #61afef;
+  --purple: #c678dd;
+  --cyan: #56b6c2;
+}
+
+/* applied to every page*/
+body{
+  background-color: var(--bg);
+}
+
+/* site specific stuff */
+#site-header {
+  color: var(--fg);
+}
+
+#p-lead {
+  color: var(--fg);
+}
+
+#separator {
+    border-top: 2px solid var(--red);
+}
+
+.card {
+    background-color: var(--bg2);
+    border: 1px solid var(--red);
+}
+
+
+.card-title {
+  color: #ebdbb2;
+}
+
+.card-text {
+  color: #ebdbb2;
+}
+
+.btn:hover {
+  color: var(--red);
+  background-color: var(--bg);
+  border: 1px solid var(--red);
+}
+
+.btn {
+  color: var(--bg);
+  background-color: var(--red);
+  border: 1px solid var(--red);
+}
+
+/* rollcard */
+.latestUser {
+    color: var(--green);
+}
+
+.latestMap {
+    color: var(--purple);
+}
+
+/* table */
+table {
+    margin-top: 40px;
+    background-color: var(--bg2);
+    color: var(--fg);
+}
+
+thead {
+    border-bottom: 2px solid var(--red);
+}
+
+th {
+    color: var(--fg);
+    border-bottom: 0px;
+}
+
+tr {
+    color: var(--fg);
+    border-bottom: 0px;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: var(--bg);
+}
+
+td {
+    border-bottom: 0px;
+}

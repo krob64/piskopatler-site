@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/styles/navbar.css">
+  <title>home | piskopatler.com</title>
+  <link rel="shortcut icon" href="favicon.ico">
+</head>
+
+<body>
+  {{> navbar}}
+  <div class="container mt-4">
+    <div class="jumbotron">
+      <h1 class="display-4" id="site-header">tools</h1>
+      <p class="lead" id="p-lead">die sind ja richtig toll</p>
+      <hr class="my-4" id="separator">
+
+        <div>
+          <div class="card text-center" style="width: 18rem;">
+            <img src="wallofshamepic.png" alt="pisko" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">wall of shame</h5>
+              <p class="card-text">most sane cstrike players</p>
+              <a href="/wallofshame" class="btn btn-primary">wall of shame</a>
+            </div>
+          </div>
+          <div class="card text-center" style="width: 18rem;">
+            <img src="members.png" alt="pisko" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">members</h5>
+              <p class="card-text">die piskopaten</p>
+              <a href="/tools/members" class="btn btn-primary">memberpage</a>
+            </div>
+          </div>
+          <div class="card text-center" style="width: 18rem;">
+            <img src="quakelivelogo.png" alt="pisko" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">quake randomizer</h5>
+              <p class="card-text">mach ma map feddig hier</p>
+              <a href="/tools/quakerandomizer" class="btn btn-primary">quake randomizer</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,123 @@
+/* onedark theme*/
+:root {
+    --bg: #282C34;
+    --bg2: #22252b;
+    --fg: #ABB2BF;
+    --red: #e06c75;
+    --green: #98c379;
+    --yellow: #e5c07b;
+    --blue: #61afef;
+    --purple: #c678dd;
+    --cyan: #56b6c2;
+  }
+  
+  /* applied to every page*/
+body{
+  background-color: var(--bg);
+}
+
+nav{
+    background-color: var(--bg2);
+    color: var(--fg);
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h4 {
+  margin-bottom: 0;
+}
+
+nav ul {
+    display:flex;  
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+nav li {
+    list-style: none;
+    align-self: stretch;
+}
+
+nav li a {
+    color: var(--fg);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 8px;
+}
+
+nav li a:hover {
+    color: var(--yellow);
+    text-decoration: none;
+}
+
+  /* site specific stuff */
+  
+  .card {
+      background-color: var(--bg2);
+      border: none;
+      border-radius: 0px;
+  }
+  
+  .card-header {
+      color: var(--yellow);
+      border-bottom: 2px solid var(--yellow);
+      font-weight: bold;
+      font-size: larger;
+  }
+  
+  /* input fields */
+  label {
+      color: var(--fg);
+  }
+  
+  input[type="text"], textarea {
+      background-color : var(--bg2); 
+      color: var(--fg);
+      border: none;
+      border-bottom: 1px solid var(--fg);
+      border-radius: 0px;
+  }
+  
+  input[type="password"], textarea {
+      background-color : var(--bg2); 
+      color: var(--fg);
+      border: none;
+      border-bottom: 1px solid var(--fg);
+      border-radius: 0px;
+  }
+  
+  input[type="text"]:focus {
+      background-color : var(--bg2); 
+      color: var(--fg);
+      border: none;
+      border-bottom: 1px solid var(--green);
+      border-radius: 0px;
+  }
+  
+  input[type="password"]:focus {
+      background-color : var(--bg2); 
+      color: var(--fg);
+      border: none;
+      border-bottom: 1px solid var(--green);
+      border-radius: 0px;
+  }
+  
+  input {
+      outline-width: 0px;
+  }
+  
+  /* buttons */
+  .btn:hover {
+    color: var(--yellow);
+    background-color: var(--bg);
+    border: 1px solid var(--yellow);
+  }
+  
+  .btn {
+    color: var(--bg);
+    background-color: var(--yellow);
+    border: 1px solid var(--yellow);
+  }
+
