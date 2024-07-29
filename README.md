@@ -4,7 +4,7 @@ Later on i added a quake map randomizer due to us having trouble deciding which 
 
 Yes, node_modules isn't being gitignored. I haven't worked on this project for 2 years and i'm pretty sure all hell will break loose with a clean `$ npm install`.
 
-Built using mysql, expressjs and handlebars templating with bootstrap 5.
+Built using the steam-api, mysql, expressjs and handlebars templating with bootstrap 5.
 
 # building & running
 Setup the MySQL database\
